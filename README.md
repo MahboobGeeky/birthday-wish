@@ -1,4 +1,4 @@
-# Happy Birthday, Teena
+# Happy Birthday, Priya
 
 A small, friendly single-page site built with **React** and **Tailwind CSS** (Vite) to share birthday wishes and photos.
 
@@ -72,5 +72,5 @@ Vercel works well with Vite/React static sites. Use either the dashboard or the 
 
 ---
 
-Photos live in `public/images/` (`photo-1.jpeg` … `photo-13.jpeg`). Replace them there if you update pictures; keep the same filenames or update `src/data/photos.js` accordingly.
-# teena-birthday
+Photos live in `public/images/` (`photo-1.jpeg` … `photo-10.jpeg`). Replace them there if you update pictures; keep the same filenames or update `src/data/photos.js` accordingly.
+# priya-birthday

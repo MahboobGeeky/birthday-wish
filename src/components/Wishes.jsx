@@ -72,28 +72,28 @@ export default function Wishes() {
               reduced
                 ? {}
                 : {
-                    boxShadow:
-                      '0 32px 100px -16px rgba(244,63,94,0.35), 0 0 0 1px rgba(255,255,255,0.6) inset',
-                  }
+                  boxShadow:
+                    '0 32px 100px -16px rgba(244,63,94,0.35), 0 0 0 1px rgba(255,255,255,0.6) inset',
+                }
             }
             transition={{ type: 'spring', stiffness: 260, damping: 28 }}
           >
             <motion.p className="font-display text-xl italic leading-relaxed text-stone-700 md:text-2xl" variants={item}>
-              Dear Teena,
+              Hey Priya👋,
             </motion.p>
             <motion.p className="mt-6 leading-relaxed text-stone-600 md:text-lg" variants={item}>
-              On your special day — April 3rd — I hope you feel appreciated for the kind, wonderful person you are. May
+              On your special day — June 2nd — I hope you feel appreciated for the kind, wonderful person you are. May
               this year bring you calm days, bright surprises, and moments that make you smile when you look back on
               them.
             </motion.p>
             <motion.p className="mt-4 leading-relaxed text-stone-600 md:text-lg" variants={item}>
               Thank you for being a friend worth celebrating. Wishing you health, happiness, and everything gentle and
-              good ahead.
+              good ahead. (Kuchh jyada nhi ho gya.😀)
             </motion.p>
             <motion.div className="mt-10 border-t border-rose-100/90 pt-8" variants={item}>
-              <p className="text-sm font-medium uppercase tracking-[0.2em] text-rose-500/90">Warm regards,</p>
+              <p className="text-sm font-medium uppercase tracking-[0.2em] text-rose-500/90">खुश रहो बालिके</p>
               <p className="font-display mt-3 bg-gradient-to-r from-rose-700 via-pink-600 to-rose-600 bg-clip-text text-3xl font-semibold text-transparent drop-shadow-sm md:text-4xl">
-                Mahboob
+
               </p>
             </motion.div>
           </motion.div>

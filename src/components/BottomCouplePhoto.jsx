@@ -15,7 +15,7 @@ export default function BottomCouplePhoto() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
         >
-          Photo together
+          {/* Photo together */}
         </motion.h2>
 
         <motion.div
@@ -30,14 +30,14 @@ export default function BottomCouplePhoto() {
             <div className="overflow-hidden rounded-[1.35rem] bg-stone-100 ring-1 ring-white/60 md:rounded-[1.65rem]">
               <img
                 src={bottomCouplePhotoSrc}
-                alt="Teena with a friend — a moment together"
+                alt="Priya with a friend — a moment together"
                 className="h-auto w-full max-h-[min(72vh,640px)] object-cover object-center md:max-h-[min(78vh,720px)]"
                 loading="lazy"
                 decoding="async"
               />
             </div>
           </div>
-          <p className="mt-4 text-center font-medium text-stone-600 md:text-lg">Together</p>
+          {/* <p className="mt-4 text-center font-medium text-stone-600 md:text-lg">Together</p> */}
         </motion.div>
       </div>
     </section>

@@ -12,8 +12,6 @@ export const photoPaths = [
   'photo-8.jpeg',
   'photo-9.jpeg',
   'photo-10.jpeg',
-  'photo-12.jpeg',
-  'photo-13.jpeg',
   'couple.jpeg'
 ].map(filename => `${BASE_PATH}/${filename}`)
 

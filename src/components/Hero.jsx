@@ -41,7 +41,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        April 3 — a day worth celebrating
+        June 2 — a day worth celebrating
       </motion.p>
 
       <motion.div
@@ -60,7 +60,7 @@ export default function Hero() {
           <div className="relative rounded-full bg-gradient-to-br from-rose-300 via-pink-200 to-amber-200 p-[3px] shadow-[0_20px_50px_-12px_rgba(244,63,94,0.45)] ring-4 ring-white/90">
             <img
               src={profilePhotoSrc}
-              alt="Teena"
+              alt="Priya"
               width={160}
               height={160}
               className="h-28 w-28 rounded-full object-cover md:h-36 md:w-36"
@@ -69,7 +69,7 @@ export default function Hero() {
             />
           </div>
           <span className="absolute -bottom-2 left-1/2 z-10 -translate-x-1/2 whitespace-nowrap rounded-full bg-white/95 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-rose-600 shadow-lg ring-1 ring-rose-100 md:text-sm">
-            Teena
+            Priya
           </span>
         </div>
       </motion.div>
@@ -104,7 +104,7 @@ export default function Hero() {
                 filter: reduced ? undefined : 'drop-shadow(0 12px 28px rgba(244,63,94,0.25))',
               }}
             >
-              Teena
+              Priya
             </motion.span>
           </motion.h1>
         </motion.div>

@@ -10,11 +10,11 @@ export default function Footer() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Happy Birthday, Teena — today and always.
+          Happy Birthday, Priya — today and always.
         </motion.p>
-        <p className="mt-4 text-sm text-stone-500">
+        {/* <p className="mt-4 text-sm text-stone-500">
           Crafted with care by <span className="font-medium text-rose-600">Mahboob</span> · {new Date().getFullYear()}
-        </p>
+        </p> */}
       </div>
     </footer>
   )
